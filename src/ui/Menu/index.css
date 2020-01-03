@@ -1,0 +1,14 @@
+
+.ui-menu {
+    display: inline-block;
+    border: 1px solid #000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.ui-menu-item {
+    padding: 6px 16px;
+    cursor: pointer;
+}
+.ui-menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
