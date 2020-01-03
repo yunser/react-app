@@ -4,3 +4,6 @@
 .ui-table td {
     border: 1px solid #000;
 }
+.ui-table th {
+    border: 1px solid #000;
+}

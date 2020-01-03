@@ -6,8 +6,10 @@ import WiredButton from './components/WiredButton'
 import { App as UIApp } from './ui'
 // import { Link } from 'react-router-dom'
 import { BrowserRouter, Route, Link } from 'react-router-dom'
-import About from './pages/About'
+
 import Home from './pages/Home'
+import About from './pages/About'
+import Angle from './pages/Angle'
 
 class Point {
 
@@ -61,6 +63,7 @@ const App: React.FC = () => {
                     <div>
                         <Route path="/" exact component={Home} />
                         <Route path="/about" component={About} />
+                        <Route path="/angle" component={Angle} />
                     </div>
                 </BrowserRouter>
             </header>

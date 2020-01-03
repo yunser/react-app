@@ -3,7 +3,7 @@ import classNames from 'classnames'
 
 import './AppBar.scss'
 
-// import { IconButton } from '../iconButton'
+import { IconButton } from '../iconButton/IconButton'
 
 export function AppBar(props) {
     const { className, title, action, onMenuClick } = props
@@ -16,7 +16,7 @@ export function AppBar(props) {
             
         >
             <div className="appbar-left">
-                {/* <IconButton className="appbar-menu-btn" icon="menu" onClick={onMenuClick} /> */}
+                <IconButton className="appbar-menu-btn" icon="menu" onClick={onMenuClick} />
                 <div className="ui-appbar-title">{title}</div>
             </div>
             <div className="appbar-right">{action}</div>

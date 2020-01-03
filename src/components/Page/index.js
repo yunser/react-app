@@ -77,12 +77,12 @@ export default class Page extends React.Component {
                     </div>
                     <div className={classes.body}>
                         <div className={classes.list}>
-                            <ListItem title="首页" icon="home" to="/" />
+                            {/* <ListItem title="首页" icon="home" to="/" />
                             <ListItem title="关于" icon="info" to="/about" />
                             <ListItem title="点" icon="info" to="/point" />
                             <ListItem title="直线" icon="info" to="/line" />
                             <ListItem title="角" icon="info" to="/angle" />
-                            <ListItem title="帮助" icon="info" href="https://project.yunser.com/products/aba65b302c5511eab06f13e9da1116e2" target="_blank" />
+                            <ListItem title="帮助" icon="info" href="https://project.yunser.com/products/aba65b302c5511eab06f13e9da1116e2" target="_blank" /> */}
                         </div>
 
                     </div>
